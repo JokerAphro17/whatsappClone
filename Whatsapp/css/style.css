@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    overflow: auto;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+header{
+    height: 91px;
+    background-color: #128c7e;
+    display: flex;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 2;
+}
+.logo1{
+    width: 160px;
+    height: 39px;
+    position: relative;
+    top: 23px;
+    right: 85px;
+    
+}
+.head{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    left: 200px;
+}
+.menu{
+    position: relative;
+    top: 13px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+.sec1{
+    position: relative;
+    margin-left: 270px;
+    top: 180px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    display: flex;
+    z-index: 0;
+}
+.text1 h1 {
+    
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 43px;
+}
+.text1{
+    width: 394px;
+    position: relative;
+}
+.p1{
+    font-size: 18px;
+    line-height: 26px;
+}
+.p2{
+    color: rgba(0, 0, 0, 0.623);
+    margin-bottom: 50px;
+}
+
+
+._wauiIcon__android, .fa-desktop, .fa-apple{
+    color: #1CB39B;
+    margin-right:20px ;
+}
+.download a {
+    color:#1CB39B;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+.phone img{
+    position: relative;
+    bottom: 30px;
+    width: 304px;
+    height: 572px;
+    left: 70px;
+}
+.phone{
+    
+}
+.sec2{
+    z-index: 0;
+    display: flex;
+}
+.gauche {
+    width: 38%;
+    background-color: #D8E8EA;
+    position: relative;
+    top:200px;
+    text-align: center;
+    height: 752px;
+    padding: 40px;
+}
+.gauche h1{
+    font-weight: 700px;
+
+}
+.gauche h1, .gauche p{
+    position: relative;
+    top: 20px;
+}
+.gauche p {
+    line-height: 28px;
+    text-justify: inter-cluster;
+}
+.p3{
+    margin-bottom: 30px ;
+}
+.gauche img {
+    position: relative;
+    top: 60px;
+}
+.droite{
+    width: 38%;
+    background-color:#E7F0E4;
+    position: relative;
+    top:200px;
+    text-align: center;
+    height: 752px;
+    padding: 40px;
+    left: 147px;
+}
+.droite img{
+    margin-bottom: 20px;
+
+}
+.droite p {
+    line-height: 26px
+}
+button{
+    align-items: center;
+    border: 2px solid #128c7e;
+    position:absolute;
+    right: 40%;
+    left: 40%;
+    top: 1650px;
+    width: 300px;
+    background-color: white;
+    height: 50px;
+    border-radius: 50px;
+    padding: 20px;
+    cursor: pointer;    
+    
+}
+footer{
+    position: relative;
+    top: 400px;
+}
+.div1{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    background-color: #273443;
+    color: white;
+    padding: 20px;
+}
+li{
+    list-style-type: none;
+    margin: 10px 0;
+}
+.div2{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+}
+.pa1{
+    margin-left: 125px;
+    font-weight: bold;
+}
+.pa2{
+    margin-right: 30px;
+    font-weight: bold;
+}
+ul li {
+    cursor: pointer;
+}
+li:hover{
+    text-decoration: underline;
+}
